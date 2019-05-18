@@ -1,0 +1,48 @@
+*** Creating Trace Output File '.\Output\CleanArm.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\output\main.o"'
+### List of Objects: adding '".\output\stm32f10x_it.o"'
+### List of Objects: adding '".\output\public.o"'
+### List of Objects: adding '".\output\core_cm3.o"'
+### List of Objects: adding '".\output\system_stm32f10x.o"'
+### List of Objects: adding '".\output\startup_stm32f10x_hd.o"'
+### List of Objects: adding '".\output\stm32f10x_gpio.o"'
+### List of Objects: adding '".\output\stm32f10x_rcc.o"'
+### List of Objects: adding '".\output\misc.o"'
+### List of Objects: adding '".\output\stm32f10x_exti.o"'
+### List of Objects: adding '".\output\stm32f10x_tim.o"'
+### List of Objects: adding '".\output\stm32f10x_spi.o"'
+### List of Objects: adding '".\output\stm32f10x_usart.o"'
+### List of Objects: adding '".\output\sys.o"'
+### List of Objects: adding '".\output\stm32f10x_adc.o"'
+### List of Objects: adding '".\output\systick.o"'
+### List of Objects: adding '".\output\exti.o"'
+### List of Objects: adding '".\output\time.o"'
+### List of Objects: adding '".\output\printf.o"'
+### List of Objects: adding '".\output\sca1000.o"'
+### List of Objects: adding '".\output\iic.o"'
+### List of Objects: adding '".\output\input.o"'
+### List of Objects: adding '".\output\crc16.o"'
+### List of Objects: adding '".\output\servomotor.o"'
+### List of Objects: adding '".\output\electricputter.o"'
+### List of Objects: adding '".\output\vacuumgenerator.o"'
+### List of Objects: adding '".\output\cleanarm.o"'
+### List of Objects: adding '".\output\bodymove.o"'
+### List of Objects: adding '".\output\mnspi.o"'
+### List of Objects: adding '".\output\usart_232.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 ".\output\main.o" ".\output\stm32f10x_it.o" ".\output\public.o" ".\output\core_cm3.o" ".\output\system_stm32f10x.o" ".\output\startup_stm32f10x_hd.o" ".\output\stm32f10x_gpio.o" ".\output\stm32f10x_rcc.o" ".\output\misc.o" ".\output\stm32f10x_exti.o" ".\output\stm32f10x_tim.o" ".\output\stm32f10x_spi.o" ".\output\stm32f10x_usart.o" ".\output\sys.o" ".\output\stm32f10x_adc.o" ".\output\systick.o" ".\output\exti.o" ".\output\time.o" ".\output\printf.o" ".\output\sca1000.o" ".\output\iic.o" ".\output\input.o" ".\output\crc16.o" ".\output\servomotor.o" ".\output\electricputter.o" ".\output\vacuumgenerator.o" ".\output\cleanarm.o" ".\output\bodymove.o" ".\output\mnspi.o" ".\output\usart_232.o" --library_type=microlib --strict --scatter ".\Output\CleanArm.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Output\CleanArm.map" -o ".\Output\CleanArm.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\Output\CleanArm.axf'
+### ADS-LD Command File: '.\Output\CleanArm.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\Output\CleanArm.lnp', Handle=0x000001B8
+### Writing '.lnp' file
+### ADS-LD Command file '.\Output\CleanArm.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

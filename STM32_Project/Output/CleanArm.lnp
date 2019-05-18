@@ -1,0 +1,4 @@
+--cpu Cortex-M3 ".\output\main.o" ".\output\stm32f10x_it.o" ".\output\public.o" ".\output\core_cm3.o" ".\output\system_stm32f10x.o" ".\output\startup_stm32f10x_hd.o" ".\output\stm32f10x_gpio.o" ".\output\stm32f10x_rcc.o" ".\output\misc.o" ".\output\stm32f10x_exti.o" ".\output\stm32f10x_tim.o" ".\output\stm32f10x_spi.o" ".\output\stm32f10x_usart.o" ".\output\sys.o" ".\output\stm32f10x_adc.o" ".\output\systick.o" ".\output\exti.o" ".\output\time.o" ".\output\printf.o" ".\output\sca1000.o" ".\output\iic.o" ".\output\input.o" ".\output\crc16.o" ".\output\servomotor.o" ".\output\electricputter.o" ".\output\vacuumgenerator.o" ".\output\cleanarm.o" ".\output\bodymove.o" ".\output\mnspi.o" ".\output\usart_232.o" --library_type=microlib --strict --scatter ".\Output\CleanArm.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Output\CleanArm.map" -o ".\Output\CleanArm.axf"
