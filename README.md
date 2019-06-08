@@ -10,3 +10,4 @@ using C#. The communications software can remotely control the robot to switch t
 and move to designated physical locations.
 
 # Image
+![image](https://github.com/guojutaoo/Robotics/blob/master/STM32_Project/Image/robot.jpg)
