@@ -8,3 +8,5 @@ and push-up) by solving the robot’s legs’ kinematical equation.
 Used MODBUS and created a 22-bit protocol designed to accomplish master-slave communications
 using C#. The communications software can remotely control the robot to switch to different gestures
 and move to designated physical locations.
+
+# Image
